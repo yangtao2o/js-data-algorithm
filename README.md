@@ -1,50 +1,13 @@
-1. 安装
+# JavaScript的数据结构和算法
 
-  ```
-  npm install --save-dev jest
-  npm install babel-jest babel-core@^7.0.0-bridge.0 @babel/core regenerator-runtime babel-preset-env
-  ```
-  编辑package.json
+## 环境搭建
 
-  ```
-  {
-    "scripts": {
-      "test": "jest"
-    }
-  }
-  ```
+* [环境搭建](./doc/init.md) - 主要使用 node npm
+* 主要测试工具是：[Jest](https://jestjs.io/docs/en/getting-started)
+* 其他插件工具有：[Babel](https://www.babeljs.cn/) JavaScript编译器、 [ESLint](https://cn.eslint.org/docs/user-guide/getting-started) 是在 ECMAScript/JavaScript 代码中识别和报告模式匹配的工具
 
-  编辑.babelrc
-  ```
-  {
-    "presets": ["env", "react"]
-  }
-  ```
+## 基础算法
 
-2. 创建js文件
+## 数据结构
 
-  ```js
-  function sum(a, b) {
-    return a + b;
-  }
-  export default sum;
-  ```
-
-  ```js
-  import sum from './index'
-
-  test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
-  });
-  ```
-
-3. 启动测试
-
-  ```
-  npm test
-  ```
-
-4. 工具安装
-
-  - IDE：Atom
-  - 插件：[platformio-ide-terminal](https://github.com/platformio/platformio-atom-ide-terminal)
+## 进阶算法
