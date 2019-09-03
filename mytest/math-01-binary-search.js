@@ -23,7 +23,7 @@ function binarySearch (list, item) {
 }
 
 function getMaxStepSearch (nums) {
-  return `最多需要 ${Math.ceil(Math.log2(nums))} 步就可以查找到！`
+  return `查找 ${nums}, 最多需要 ${Math.ceil(Math.log2(nums))} 步就可以查找到！`
 }
 
 export default { binarySearch, getMaxStepSearch }
