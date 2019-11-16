@@ -1,8 +1,8 @@
 ## 字符串类
 
-#### 反转单词
+### 反转单词
 
-* 题目：[557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/submissions/)
+题目：[557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/submissions/)
   
 ```js
 // 对数组进行遍历，然后每个元素进行反转
@@ -31,6 +31,6 @@ const reverseWord = (str) => {
 }
 ```
 
-#### 计数二进制子串
+### 计数二进制子串
 
-* 题目：[696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)
+题目：[696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)
